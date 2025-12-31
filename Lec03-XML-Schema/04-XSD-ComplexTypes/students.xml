@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="students.xsd">
+    <student>
+        <id>10001</id>
+        <name>Rajab</name>
+        <age>22</age>
+        <email>rajab@gmail.com</email>
+        <course>ADSE</course>
+    </student>
+        <student>
+        <id>10002</id>
+        <name>Taha</name>
+        <age>21</age>
+        <phone>03312345678</phone>
+        <course>ADSE</course>
+    </student>
+    <student>
+        <id>10003</id>
+        <name>Abdul Rehman</name>
+        <age>19</age>
+        <phone>03312343678</phone>
+        <course>ADSE</course>
+    </student>
+    <student>
+        <id>10004</id>
+        <name>Ghulam Muhammad</name>
+        <age>18</age>
+        <email>ghulammuhammad@gmail.com</email>
+        <course>ADSE</course>
+    </student>
+
+</students>

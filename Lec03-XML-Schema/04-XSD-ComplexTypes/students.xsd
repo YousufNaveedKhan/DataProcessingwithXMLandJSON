@@ -1,0 +1,29 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="students">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="student" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="id" type="xsd:integer" />
+                            <xsd:element name="name" type="xsd:string" />
+                            <xsd:element name="age">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:integer">
+                                        <xsd:minExclusive value="10" />
+                                        <xsd:maxExclusive value="50" />
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:choice>
+                                <xsd:element name="phone" type="xsd:integer" />
+                                <xsd:element name="email" type="xsd:string" />
+                            </xsd:choice>
+                            <xsd:element name="course" type="xsd:string" />
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

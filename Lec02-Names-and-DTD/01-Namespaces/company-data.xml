@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company xmlns:emp="http://company.com/employees" xmlns:prod="http://company.com/products">
+    <emp:employee>
+        <emp:id>101</emp:id>
+        <emp:name>Hammad</emp:name>
+        <emp:department>AI</emp:department>
+    </emp:employee>
+    <prod:product>
+        <prod:id>1001</prod:id>
+        <prod:name>Laptop</prod:name>
+        <prod:price>30000</prod:price>
+    </prod:product>
+</company>

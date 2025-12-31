@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "student.dtd">
+<students>
+    <student>
+        <id>101</id>
+        <name>Ghulam Muhammad</name>
+        <age>17</age>
+    </student>
+    <student>
+        <id>102</id>
+        <name>Rajab</name>
+        <age>19</age>
+    </student>
+    <student>
+        <id>103</id>
+        <name>Taha</name>
+        <age>19</age>
+    </student>
+</students>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<students>
+    <student>
+        <name>Ghulam Muhammad</name>
+        <course>Web Development</course>
+        <age>16</age>
+    </student>
+    <student>
+        <name>Rajab</name>
+        <course>Web Designing</course>
+        <age>18</age>
+    </student>
+    <student>
+        <name>Taha</name>
+        <course>AI</course>
+        <age>18</age>
+    </student>
+</students>
