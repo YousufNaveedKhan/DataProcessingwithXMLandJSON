@@ -1,0 +1,10 @@
+<company>
+    <employee>
+        <name>Fatima</name>
+        <department>IT</department>
+    </employee>
+    <employee>
+        <name>Zainab</name>
+        <department>AI</department>
+    </employee>
+</company>

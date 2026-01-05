@@ -1,0 +1,4 @@
+/   ->   root
+company/employees   ->   employees data
+comapny/employees[department='IT']   ->   specific department
+company/employees[1]    ->   first element

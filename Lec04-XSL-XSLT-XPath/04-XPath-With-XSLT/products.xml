@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="products.xsl" type="text/xsl"?>
+
+<products>
+    <product>
+        <name>Aircraft</name>
+        <price>5000</price>
+    </product>
+    <product>
+        <name>Laptop</name>
+        <price>15000</price>
+    </product>
+    <product>
+        <name>LCD</name>
+        <price>80000</price>
+    </product>
+</products>

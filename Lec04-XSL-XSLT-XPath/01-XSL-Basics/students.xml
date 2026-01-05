@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="students.xsl" type="text/xsl"?>
+
+<students>
+    <student>
+        <name>Abdul Rehman</name>
+        <age>19</age>
+        <course>Web Development</course>
+    </student>
+    <student>
+        <name>Ghulam Muhammad</name>
+        <age>18</age>
+        <course>Web Designing</course>
+    </student>
+    <student>
+        <name>Rajab</name>
+        <age>18</age>
+        <course>AI</course>
+    </student>
+    <student>
+        <name>Taha</name>
+        <age>18</age>
+        <course>Mob Apps</course>
+    </student>
+    <student>
+        <name>Talha</name>
+        <age>22</age>
+        <course>Desktop Apps</course>
+    </student>
+</students>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="employees.xsl" type="text/xsl"?>
+
+<employees>
+    <employee>
+        <name>Hammad</name>
+        <salary>50000</salary>
+    </employee>
+    <employee>
+        <name>Ahmed</name>
+        <salary>80000</salary>
+    </employee>
+    <employee>
+        <name>Ali</name>
+        <salary>35000</salary>
+    </employee>
+</employees>
