@@ -1,0 +1,22 @@
+{
+    "students": [
+        {
+            "name": "Ghulam Muhammad",
+            "age": 18,
+            "course": "Web Designing",
+            "isEnrolled": true
+        },   
+        {
+            "name": "Rajab",
+            "age": 19,
+            "course": "Web Dev",
+            "isEnrolled": true
+        },
+        {
+            "name": "Taha", 
+            "age": 18, 
+            "course": "Mobile Apps", 
+            "isEnrolled": false
+        }
+    ]
+}

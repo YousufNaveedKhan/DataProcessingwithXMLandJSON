@@ -1,0 +1,9 @@
+XML: 
+<student>
+    <name>Taha</name> 
+</student> 
+
+JSON:
+{
+    "name": "Taha"
+}

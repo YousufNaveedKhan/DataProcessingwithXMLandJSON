@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON With JavaScript Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+<script>
+    // let student = {
+    //     "name": "Taha",
+    //     "age": 17,
+    //     "course": "Web Dev",
+    //     "isEnrolled": false
+    // }
+
+    // document.write("Name: " + student.name + "<br>");
+    // document.write("Age: " + student.age + "<br>");
+    // document.write("Course: " + student.course + "<br>");
+    // document.write("Enrollment: " + student.isEnrolled + "<br>");
+
+    let students = [
+            {
+                "name": "Ghulam Muhammad",
+                "age": 18,
+                "course": "Web Designing",
+                "isEnrolled": true
+            },
+            {
+                "name": "Rajab",
+                "age": 19,
+                "course": "Web Dev",
+                "isEnrolled": true
+            },
+            {
+                "name": "Taha",
+                "age": 18,
+                "course": "Mobile Apps",
+                "isEnrolled": false
+            }
+        ]
+
+
+    document.write(`
+    <div class="container mt-5">
+            <table class="table table-bordered table-hover">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Age</th>
+      <th scope="col">Course</th>
+      <th scope="col">Enrollment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>${students[0].name}</td>
+      <td>${students[0].age}</td>
+      <td>${students[0].course}</td>
+      <td>${students[0].isEnrolled}</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>${students[1].name}</td>
+      <td>${students[1].age}</td>
+      <td>${students[1].course}</td>
+      <td>${students[1].isEnrolled}</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>${students[2].name}</td>
+      <td>${students[2].age}</td>
+      <td>${students[2].course}</td>
+      <td>${students[2].isEnrolled}</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    `);
+</script>
+
+<body>
+</body>
+
+</html>
