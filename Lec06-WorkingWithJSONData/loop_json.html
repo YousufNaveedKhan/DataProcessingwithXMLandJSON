@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop JSON</title>
+</head>
+<body>
+    <h2>Students Info</h2>
+
+    <script>
+        let students = [
+        {
+            "id": 1,
+            "name": "Taha",
+            "course": "ADSE",
+            "isEnrolled": true
+        },
+        {
+            "id": 2,
+            "name": "Rajab",
+            "course": "DISM",
+            "isEnrolled": true
+        },
+        {
+            "id": 3,
+            "name": "Ghulam Muhammad",
+            "course": "HDSE",
+            "isEnrolled": true
+        }
+    ]
+
+    students.forEach(student => {
+        document.write(`
+        StudentID: ${student.id} <br>
+        Name: ${student.name} <br>
+        Course: ${student.course} <br>
+        IsEnrolled: ${student.isEnrolled} <br><br><br>
+        
+        `);
+    });
+    </script>
+</body>
+</html>

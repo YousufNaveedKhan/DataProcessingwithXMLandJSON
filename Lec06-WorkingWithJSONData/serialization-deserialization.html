@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serialization & Deserialization in JSON</title>
+</head>
+<body>
+    
+    <button onclick="sendData()">Send Student Data</button>
+
+    <script>
+        let studentsObject = {
+            "name": "Abdullah", 
+            "age": 17,
+            "course": "AI"
+        }
+
+        function sendData() {
+            console.log("Orignal Object: ");
+            console.log(studentsObject);
+
+            let serializedData = JSON.stringify(studentsObject);
+            console.log("Serialized Data: ");
+            console.log(serializedData);
+
+            console.log("Data sent over network...");
+
+            let receivedObject = JSON.parse(serializedData);
+            console.log("Deserialized Data: ");
+            console.log(receivedObject);
+
+            console.log("Check console for Serialization Flow");
+        }
+    </script>
+</body>
+</html>

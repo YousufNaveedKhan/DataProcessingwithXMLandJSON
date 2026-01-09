@@ -1,0 +1,22 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Taha",
+            "course": "ADSE",
+            "isEnrolled": true
+        },
+        {
+            "id": 2,
+            "name": "Rajab",
+            "course": "DISM",
+            "isEnrolled": true
+        },
+        {
+            "id": 3,
+            "name": "Ghulam Muhammad",
+            "course": "HDSE",
+            "isEnrolled": true
+        }
+    ]
+}
